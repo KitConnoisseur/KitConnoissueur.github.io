@@ -21,11 +21,16 @@
     gap: 10px;
   }
 
-  .gallery img {
-    width: 100%;
-    border-radius: 6px;
-    border: 1px solid #ddd;
-  }
+ .gallery img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  cursor: zoom-in;
+  transition: transform 0.2s;
+}
+.gallery img:hover {
+  transform: scale(1.03);
+}
 
   </style>
 </head>
@@ -39,12 +44,21 @@
 <div class="grid">
   <div class="item product">
     
-   <div class="gallery">
-  <img src="psg-front.jpg" alt="PSG Noir Front">
-  <img src="psg-back.jpg" alt="PSG Noir Back">
-  <img src="psg-badge.jpg" alt="PSG Badge Detail">
-  <img src="psg-tag.jpg" alt="PSG Tag Detail">
+  <div class="gallery">
+  <a href="psg-front.jpg" target="_blank">
+    <img src="psg-front.jpg" alt="PSG Noir Front">
+  </a>
+  <a href="psg-back.jpg" target="_blank">
+    <img src="psg-back.jpg" alt="PSG Noir Back">
+  </a>
+  <a href="psg-badge.jpg" target="_blank">
+    <img src="psg-badge.jpg" alt="PSG Badge Detail">
+  </a>
+  <a href="psg-tag.jpg" target="_blank">
+    <img src="psg-tag.jpg" alt="PSG Tag Detail">
+  </a>
 </div>
+
 
     <h3>PSG Noir Shirt</h3>
     <p>Authentic • Black / Purple</p>
