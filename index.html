@@ -5,6 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+  .buy-btn {
+  display: block;
+  margin-top: 15px;
+  padding: 12px;
+  background: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.buy-btn:hover {
+  background: #222;
+}
+    select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+}
+
+
+
     header { padding: 20px; text-align: center; background: #111; color: white; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
     .item { border: 1px solid #ddd; padding: 10px; text-align: center; }
@@ -62,6 +86,21 @@
 
     <h3>PSG Noir Shirt</h3>
     <p>Authentic • Black / Purple</p>
+    <label for="size">Size:</label>
+<select id="size">
+  <option>S</option>
+  <option>M</option>
+  <option>L</option>
+  <option>XL</option>
+</select>
+
+<a
+  href="https://buy.stripe.com/fZu9AS0HOcbO7YEcCsew800"
+  target="_blank"
+  class="buy-btn"
+>
+  Buy Now
+</a>
 
   </div>
 </div>
