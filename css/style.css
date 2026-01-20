@@ -22,6 +22,15 @@ header {
 }
 
 .product {
+  .product img {
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.product img:hover {
+  transform: scale(1.05);
+}
+
   background: #fff;
   padding: 20px;
   border-radius: 10px;
