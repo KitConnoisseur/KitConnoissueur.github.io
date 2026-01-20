@@ -4,10 +4,37 @@
   <meta charset="UTF-8">
   <title>Kit Connoisseur</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+.container
+.product
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  .badge {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.sold-out {
+  background: #000;
+  color: #fff;
+}
+
+.low-stock {
+  background: #ff3b3b;
+  color: #fff;
+}
+
+  <a class="buy-btn disabled">Sold Out</a>
+.buy-btn.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
 
 <header>
   <h1>Kit Connoisseur</h1>
